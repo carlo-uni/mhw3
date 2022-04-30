@@ -1,0 +1,94 @@
+.choice-grid{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: space-between;
+    
+}
+
+.choice-grid div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 32.5%;
+    padding: 10px;
+    border: 1px;
+    border-color: #dcdcdc;
+    box-sizing: border-box;
+}
+
+.grigio{
+    background-color: #f4f4f4;
+}
+
+.checkbox{
+    width: 20px;
+}
+
+.choice-grid div img{
+    width: 100%;
+}
+
+.pos{
+    width: 20px;
+}
+
+.sel{
+    width: 20px;
+}
+
+.colore{
+    background-color: #cfe3ff;
+}
+
+.desele{
+    opacity: 0.6;
+}
+
+@media (min-width: 700px) and (max-width: 500){
+    body{
+        width: 95%; 
+    }
+    span{
+        display: none;
+    }
+}
+
+@media(min-width: 500){
+    .choice-grid div{
+        width: 49%;
+    }   
+}
+
+#risposte{
+    margin: 60px 20px 20px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* height: 1000px; */
+}
+
+#risp_h1{
+    margin: 20px 20px 18px 20px;
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+}
+
+#risp_p{
+    margin: 18px 20px 18px 20px;
+    width: 90%;
+    justify-content: center;
+    text-align: center
+}
+
+button{
+    background-color: #cecece;
+    height: 50px;
+    width: 90%
+    justify-content: center;
+    text-align: center
+}
+
+button:hover{
+    background-color: #e0e0e0;
+}
